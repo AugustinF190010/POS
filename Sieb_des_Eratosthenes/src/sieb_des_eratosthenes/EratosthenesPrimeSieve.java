@@ -93,7 +93,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
 
     public static void main(String[] args) {
         
-        EratosthenesPrimeSieve s = new EratosthenesPrimeSieve(70);
+        EratosthenesPrimeSieve s = new EratosthenesPrimeSieve(170);
         s.fill();
         s.sieb();
         s.printPrimes();
@@ -102,6 +102,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
         System.out.println(s.isPrime(12));
         System.out.println(s.isPrime(19));
         s.summenAlgorythmus(19);
+        
     }
 
 }
