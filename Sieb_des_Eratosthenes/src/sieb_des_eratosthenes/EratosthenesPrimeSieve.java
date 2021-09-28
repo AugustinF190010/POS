@@ -101,7 +101,7 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
         System.out.println(s.isPrime(1));
         System.out.println(s.isPrime(12));
         System.out.println(s.isPrime(19));
-        s.summenAlgorythmus(19);
+        s.summenAlgorythmus(21);
         
     }
 
